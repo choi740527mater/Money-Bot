@@ -48,7 +48,7 @@ client.on('message', msg => {
   }
 
   if(msg.content === "개발자 머니 잔액"){
-    user.id ? msg.reply(`${name} 개발자님의 현재 개발자 머나는 ${user.money}입니다!!`) : msg.reply(`어? 개발자 머니가 없는 것 같은데요? 출석체크 채널에서 "개발자 머나 줘"를 입력합시다!`);
+    user.id ? msg.reply(`${name} 개발자님의 현재 개발자 머나는 ${user.money}입니다!!`) : msg.reply(`어? 개발자 머니가 없는 것 같은데요?`);
   }
 
 
